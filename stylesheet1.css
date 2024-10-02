@@ -386,14 +386,14 @@
     height: 525px;
     width: 400px;
     border-radius: 4px;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,117,0.6) 100%), url('/NextTech/testingimg.jpg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,117,0.6) 100%), url('testingimg.jpg');
     background-size: cover;
     position: relative;
     color: #fff;
 }
 
 .services_card:nth-child(2) {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,117,0.6) 100%), url('/NextTech/workatTest.jpg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,117,0.6) 100%), url('workatTest.jpg');
 }
 
 .services h2 {
