@@ -658,13 +658,13 @@
   opacity: 1;
 }
 
-#how-it-works {
-  backgroung-color: red;  
+#how-it-works { 
   text-align: center;
   padding: 50px 0;
 }
 
 #how-it-works .step {
+  background-color: black; /*changed this*/
   display: inline-block;
   width: 30%;
   margin: 0 1.5%;
