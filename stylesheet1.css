@@ -657,3 +657,30 @@
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+#how-it-works {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#how-it-works .step {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.5%;
+  vertical-align: top;
+}
+
+#how-it-works .step img {
+  width: 50px;
+  height: 50px;
+}
+
+#how-it-works .step h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+#how-it-works .step p {
+  font-size: 1em;
+  color: #666;
+}
