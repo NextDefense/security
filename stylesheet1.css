@@ -674,7 +674,7 @@
 
 #how-it-works .step img {
   width: 100%; /* Make images scale */
-  max-width: 100px; /* Set a max width for the images */
+  max-width: 800px; /* Set a max width for the images */
   height: auto; /* Maintain aspect ratio */
 }
 
