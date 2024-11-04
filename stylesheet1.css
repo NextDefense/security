@@ -658,13 +658,14 @@
   opacity: 1;
 }
 
-#how-it-works { 
+#how-it-works {
   text-align: center;
   padding: 50px 0;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text color */
 }
 
 #how-it-works .step {
-  background-color: black; /*changed this*/
   display: inline-block;
   width: 30%;
   margin: 0 1.5%;
@@ -672,8 +673,9 @@
 }
 
 #how-it-works .step img {
-  width: 500px;
-  height: 500px;
+  width: 100%; /* Make images scale */
+  max-width: 100px; /* Set a max width for the images */
+  height: auto; /* Maintain aspect ratio */
 }
 
 #how-it-works .step h3 {
@@ -683,5 +685,5 @@
 
 #how-it-works .step p {
   font-size: 1em;
-  color: red;
+  color: #ccc; /* Light grey text color for better readability */
 }
