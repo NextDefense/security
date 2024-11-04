@@ -664,7 +664,7 @@
 }
 
 #how-it-works .step {
-  background-color: black; /*changed this*/
+  /*background-color: black; /*changed this*/
   display: inline-block;
   width: 30%;
   margin: 0 1.5%;
@@ -683,5 +683,5 @@
 
 #how-it-works .step p {
   font-size: 1em;
-  color: #666;
+  color: white;
 }
