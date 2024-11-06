@@ -21,7 +21,7 @@ table {
 th, td {
     border: 1px solid #ddd; /* Light border for table cells */
     padding: 12px; /* Padding for cells */
-    text-align: left; /* Align text to the left */
+    text-align: center; /* Align text to the left */
 }
 
 th {
@@ -30,7 +30,7 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #f9f9f9; /* Zebra striping for rows */
+    background-color: #black; /* Zebra striping for rows */
 }
 
 .cta {
