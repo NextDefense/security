@@ -703,3 +703,30 @@ th, td {
 th {
     background-color: black;
 }
+
+.about-section {
+    background-color: #141414; /* Light background */
+    padding: 20px; /* Spacing around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.about-section h2 {
+    color: #ff0844; /* Darker text for headings */
+    font-size: 24px; /* Larger font size */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.about-section p {
+    color: #ff8177; /* Slightly lighter text for paragraphs */
+    line-height: 1.6; /* Improved readability */
+}
+
+.about-section a {
+    color: #ff0844; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.about-section a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
