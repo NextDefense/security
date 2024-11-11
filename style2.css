@@ -8,14 +8,14 @@
 
 .about-section h2 {
     color: #ff0844; /* Darker text for headings */
-    font-size: 24px; /* Larger font size */
+    font-size: 44px; /* Larger font size */
     margin-bottom: 10px; /* Space below heading */
     text-align: center;
 }
 
 .about-section p {
     color: #ff8177; /* Slightly lighter text for paragraphs */
-    line-height: 1.6; /* Improved readability */
+    line-height: 2.6; /* Improved readability */
     text-align: center;
 }
 
