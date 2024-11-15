@@ -43,6 +43,12 @@
     font-size: 2rem;
 }
 
+#navbar_logo img {
+    height: 50px; /* Adjust height as needed */
+    width: auto;  /* Maintain aspect ratio */
+    display: block; /* Ensures no extra space below the image */
+}
+
 .fa-gem {
     margin-right: 0.5rem;
 }
