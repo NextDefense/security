@@ -44,9 +44,9 @@
 }
 
 #navbar_logo img {
-    height: 100px; /* Adjust height as needed */
+    height: 500px; /* Adjust height as needed */
     width: auto;  /* Maintain aspect ratio */
-   /* display: block;  Ensures no extra space below the image */
+    display: block;  /* Ensures no extra space below the image */
 }
 
 .fa-gem {
