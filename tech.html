@@ -35,9 +35,23 @@
                 <li class="navbar_item">
                     <a href="/NextDefense/contact.html" class="navbar_links">Contact Us </a>
                 </li>
+                <li class="navbar_item">
+                    <a onclick="openChat()" class="navbar_links">Chat</a>
+                </li>
             </ul>
         </div>
     </nav>
+
+    <!-- chatbot -->  
+    <div id="chatPopup">
+        <div id="chatbox">
+            <div id="messages"></div>
+            <input type="text" id="userInput" placeholder="Type a message...">
+            <button id="sendButton" onclick="sendMessage()">Send</button>
+            <button onclick="closeChat()">Close</button>
+        </div>
+    </div>
+    <!-- chatbot end -->
 
     <!-- Hero Section-->
     <div class="main">
