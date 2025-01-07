@@ -35,3 +35,4 @@ function sendMessage() {
       document.getElementById('userInput').value = '';
   });
 }
+// --- end chatbot ----
