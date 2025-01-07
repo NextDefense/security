@@ -32,11 +32,15 @@ function getBotResponse(input) {
   // Simple chatbot logic
   if (input.toLowerCase().includes("request")) {
       return "Go to https://therman5.github.io/NextDefense/products.html then fill out the form\n, a team member will be with you shortly.";
-  } else if (input.toLowerCase().includes("cost"|"prices")) {
+  } else if (input.toLowerCase().includes("cost")) {
       return "Our prices start at $3,000 for the basic test and go up to $4,000 for the Premium test.";
-  } else if (input.toLowerCase().includes("contact")) {
+  } 
+  else if (input.toLowerCase().includes("contact")) {
       return "You can send us an email at nextdefense24@gmail.com and someone will be in contact with you shortly.";
   }
+  else if (input.toLowerCase().includes("prices")) {
+    return "Our prices start at $3,000 for the basic test and go up to $4,000 for the Premium test.";
+  } 
   else {
     return "I'm sorry I don't know how to best answer that.";
   }
