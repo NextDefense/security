@@ -21,18 +21,24 @@ function openChat() {
 
 function sendMessage() {
   var userInput = document.getElementById('userInput').value;
-  fetch('/get', {
-      method: 'POST',
-      headers: {
-          'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ msg: userInput })
-  })
-  .then(response => response.json())
-  .then(data => {
-      var messages = document.getElementById('messages');
-      messages.innerHTML += `<div>${data}</div>`;
-      document.getElementById('userInput').value = '';
-  });
+  var messages = document.getElementById('messages');
+  messages.innerHTML += `<div>You: ${userInput}</div>`;
+  var botResponse = getBotResponse(userInput);
+  messages.innerHTML += `<div>Bot: ${botResponse}</div>`;
+  document.getElementById('userInput').value = '';
+}
+
+function getBotResponse(input) {
+  // Simple chatbot logic
+  if (input.toLowerCase().includes("request")) {
+      return "Go to https://therman5.github.io/NextDefense/products.html then fill out the form\n, a team member will be with you shortly.";
+  } else if (input.toLowerCase().includes("cost"|"prices")) {
+      return "Our prices start at $3,000 for the basic test and go up to $4,000 for the Premium test.";
+  } else if (input.toLowerCase().includes("contact")) {
+      return "You can send us an email at nextdefense24@gmail.com and someone will be in contact with you shortly.";
+  }
+  else {
+    return "I'm sorry I don't know how to best answer that.";
+  }
 }
 // --- end chatbot ----

@@ -41,7 +41,7 @@ chatbot = Chat(pairs, reflections)
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template("https://therman5.github.io/NextDefense/index.html")
 
 @app.route('/get', methods=['POST'])
 def get_response():
