@@ -7,7 +7,19 @@
     <link rel="stylesheet" href="stylesheet1.css">
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>    
+<body>  
+    
+    <!-- chatbot -->
+    <button onclick="openChat()">Chat with us</button>
+    <div id="chatPopup">
+        <div id="chatbox">
+            <div id="messages"></div>
+            <input type="text" id="userInput" placeholder="Type a message...">
+            <button id="sendButton" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <!-- chatbot end -->
+    
     <!-- navbar section -->
     <nav class="navbar">
         <div class="navbar_container">
