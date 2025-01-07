@@ -19,6 +19,10 @@ function openChat() {
   document.getElementById('chatPopup').style.display = 'block';
 }
 
+function closeChat() {
+  document.getElementById("chatPopup").style.display = "none";
+}
+
 function sendMessage() {
   var userInput = document.getElementById('userInput').value;
   var messages = document.getElementById('messages');
