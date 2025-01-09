@@ -33,7 +33,7 @@ function sendMessage() {
 }
 
 function getBotResponse(input) {
-  // Simple chatbot logic
+
   if (input.toLowerCase().includes("request")) {
       return "Go to https://therman5.github.io/NextDefense/products.html then fill out the form\n, a team member will be with you shortly.";
   } else if (input.toLowerCase().includes("cost")) {
