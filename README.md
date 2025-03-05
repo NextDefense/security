@@ -1,5 +1,8 @@
 # NextDefense
 
+# take a look at this page for implementing a purchasing page
+https://kit.com/pricing
+
 # take a look at these tools for the testing suite
 
 there are several open-source tools and frameworks that can help identify both website vulnerabilities and data storage vulnerabilities. Here are a few notable ones:
