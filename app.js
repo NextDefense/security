@@ -46,9 +46,6 @@ function getBotResponse(input) {
   else if (input.toLowerCase().includes("prices")) {
     return "Our prices start at $3,000 for the basic test and go up to $4,000 for the Premium test.";
   } 
-  else {
-    return "I'm sorry I don't know how to best answer that.";
-  }
   else if (input.toLowerCase().includes("small")) {
     return "If your business is small we suggest the Basic test,\n although more advanced testing levels may be needed.";
   }
@@ -63,6 +60,9 @@ function getBotResponse(input) {
   }
   else if (input.toLowerCase().includes("include")) {
     return "We will run in depth tests on your systems scanning for malware,\n suspious code, and even sql injections.\n You then get a detailed report of all findings.";
+  }
+  else {
+    return "I'm sorry I don't know how to best answer that.";
   }
 }
 // --- end chatbot ----
