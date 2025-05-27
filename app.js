@@ -40,7 +40,7 @@ function getBotResponse(input) {
       return "Our prices start at $3,000 for the basic test and go up to $4,000 for the Premium test.";
   } else if (input.toLowerCase().includes("contact")) {
       return "You can send us an email at nextdefense24@gmail.com and someone will be in contact with you shortly.";
-  } else if (input.toLowerCase().includes("prices")) {
+  } /*else if (input.toLowerCase().includes("prices")) {
     return "Our prices start at $3,000 for the basic test and go up to $4,000 for the Premium test.";
   } else if (input.toLowerCase().includes("small")) {
     return "If your business is small we suggest the Basic test\n, although more advanced testing levels may be needed.";
@@ -52,7 +52,7 @@ function getBotResponse(input) {
     return "We will run in depth tests on your systems scanning for malware\n, suspious code, and even sql injections. You then get a detailed report of all findings.";
   } else if (input.toLowerCase().includes("include")) {
     return "We will run in depth tests on your systems scanning for malware\n, suspious code, and even sql injections. You then get a detailed report of all findings.";
-  } else {
+  }*/ else {
     return "I'm sorry I don't know how to best answer that.";
   }
 }
